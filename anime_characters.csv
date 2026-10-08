@@ -8,10 +8,10 @@ id,name,Last Name,age,contact,birthday,Address,Birthplace,gender,email
 7,Nami,Nami,20,0917-100-0007,2006-07-03,"Thousand Sunny, Grand Line",Cocoyasi Village,Female,nami.navigator@example.com
 8,Edward,Elric,16,0917-100-0008,2010-02-10,"Rockbell Residence, Resembool",Resembool,Male,edward.elric@example.com
 9,Alphonse,Elric,15,0917-100-0009,2011-03-15,"Rockbell Residence, Resembool",Resembool,Male,alphonse.elric@example.com
-10,Light,Yagami,18,0917-100-0010,2008-02-28,"Yagami House, Kanto Region",Kanto Region,Male,light.yagami@example.com
+10,Light,Yagami,,0917-100-0010,2008-02-28,"Yagami House, Kanto Region",Kanto Region,Male,light.yagami@example.com
 11,Lelouch,Lamperouge,17,0917-100-0011,2008-12-05,"Ashford Academy, Area 11",Pendragon,Male,lelouch.lamperouge@example.com
 12,Goku,Son,35,0917-100-0012,1991-04-16,"Mount Paozu",Planet Vegeta,Male,goku.son@example.com
-13,Vegeta,Vegeta,38,0917-100-0013,1988-08-14,"Capsule Corp, West City",Planet Vegeta,Male,vegeta.prince@example.com
+13,Vegeta,Vegeta,,0917-100-0013,1988-08-14,"Capsule Corp, West City",Planet Vegeta,Male,vegeta.prince@example.com
 14,Tanjiro,Kamado,16,0917-100-0014,2010-07-14,"Mount Kumotori",Mount Kumotori,Male,tanjiro.kamado@example.com
 15,Nezuko,Kamado,15,0917-100-0015,2010-12-28,"Mount Kumotori",Mount Kumotori,Female,nezuko.kamado@example.com
 16,Eren,Yeager,20,0917-100-0016,2006-03-30,"Shiganshina District, Wall Maria",Shiganshina District,Male,eren.yeager@example.com
