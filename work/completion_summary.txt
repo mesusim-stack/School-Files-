@@ -1,0 +1,18 @@
+Final deliverables verified:
+
+1. CPE15_24-001777_ANALYSIS.ipynb - executed notebook, runs local-only with URL fallbacks, SQL fix applied
+2. CPE15_24-001777_DECISION.pdf - 1 page, memo body 308 words (<=350), includes identification line
+   Mark Gabriel E. Susim | Student ID 24-001777 | Section BSCpE-3GF | CPE15 Professional Elective 1: Programming for Data Science | November 20, 2026
+3. CPE15_24-001777_SUPPORTING.zip - contains CPE15_24-001777_FINAL_MAP.html and CPE15_24-001777_PROCESSED.csv
+
+Final revised top three zones (after student-written F03 non-operational update):
+  A08 Malupak: 72.68
+  A03 Atulinao: 69.98
+  A09 Nagsinamo: 65.81
+
+Final original top three zones (before update):
+  A08 Malupak: 70.99
+  A02 Aliliw: 68.36
+  A07 Kulapi: 64.18
+
+All validation checks passed: no network, no instructor authorization claim, evidence hashes verified, ZIP exclusion, map disclosure, CSV checks, residual uncertainty, A07 duplicate check, parser output applied F03 non-operational.
