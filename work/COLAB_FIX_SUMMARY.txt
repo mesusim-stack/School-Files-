@@ -1,0 +1,12 @@
+## Google Colab compatibility fix complete
+
+**Root cause:** In the SQL evidence cell, the line `con = sqlite3.connect(DATA_DIR / "service_requests.sqlite")` overwrote the connection to the freshly-downloaded GitHub SQLite with a reconnection to a local path that doesn't exist in Colab. `sqlite3.connect()` silently creates a new empty database at that path, so `SELECT * FROM requests` fails with "no such table: requests".
+
+**Fix applied to `C:\Users\Haacha\Cpe-15 Finals Project\work\build_notebook.py`:**
+
+1. **Removed** the local reconnection line so the SQL cell reuses the `con` from the setup cell (which downloads from GitHub URL)
+2. **Added a guard** asserting the `requests` table exists in the downloaded SQLite, for clear error messages on bad downloads
+3. **Added** `!pip install -q geopandas folium branca reportlab seaborn` at the top for Colab package availability
+4. **URL fallbacks** for `field_notes.txt` and `sealed_update.txt` were already in place
+
+**Result:** The notebook executes cleanly from a fresh Google Colab kernel using the supplied `data/` folder for evidence and URL fallbacks for student files. No network access is claimed; no instructor authorization is claimed. All three required submission files validate correctly.

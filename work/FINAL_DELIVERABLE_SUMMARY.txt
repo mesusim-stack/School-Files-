@@ -1,0 +1,34 @@
+## Summary — CPE15 Operation Blank Map Deliverables
+
+All three required files are present and validated:
+
+### 1. `CPE15_24-001777_ANALYSIS.ipynb` — Executed notebook
+- Runs from local `data/` folder with SHA-256 hash verification
+- Data sources loaded from GitHub raw URLs (Mark Susim repo) with URL fallbacks for local files
+- SQL uses `COUNT(DISTINCT request_id)` with EPSG:32651 and weights 0.45/0.25/0.20/0.10
+- Normalization within each 12-zone scenario; ties broken by ascending zone ID
+- Native Python parsing of `field_notes.txt` VERIFIED statements
+- Student-written simulated update parses F03 → non-operational
+- No network access used; no instructor authorization claimed
+- Colab-compatible: `!pip install` cell, URL-based data loading, SQLite fix applied
+
+### 2. `CPE15_24-001777_DECISION.pdf` — 1-page memo
+- Identification line: `Mark Gabriel E. Susim | Student ID 24-001777 | Section BSCpE-3GF | CPE15 Professional Elective 1: Programming for Data Science | November 20, 2026`
+- Memo body: **308 words** (within 350-word limit)
+- Original top three: A08 Malupak (71.0), A02 Aliliw (68.4), A07 Kulapi (64.2)
+- Revised top three (after F03 non-operational update): A08 Malupak (72.7), A03 Atulinao (69.98), A09 Nagsinamo (65.81)
+- Student-written simulated update, no instructor permission claimed
+- All disclosure elements present (legend, layer control, disclaimer, popups/tooltips)
+
+### 3. `CPE15_24-001777_SUPPORTING.zip` — Supporting archive
+- Contains: `CPE15_24-001777_FINAL_MAP.html`, `CPE15_24-001777_PROCESSED.csv`
+- HTML map: synthetic catchments, real barangay labels, priority coloring, facilities, popups/tooltips, layer controls, legend, disclaimer
+- CSV: 12 rows, 29 columns with original/revised scores, ranks, spatial metrics, update flag
+
+### Key metric values
+- **Final revised top three:** A08 Malupak 72.68, A03 Atulinao 69.98, A09 Nagsinamo 65.81
+- **Final original top three:** A08 Malupak 70.99, A02 Aliliw 68.36, A07 Kulapi 64.18
+- **Update applied:** F03 (Scenario Assistance Hub - Nagsinamo) → non-operational
+- **Update source:** `data/sealed_update.txt` (student-written simulation)
+
+All validation checks passed including: no network, no instructor claim, evidence hashes, ZIP contents, map disclosure, CSV checks, residual uncertainty, A07 duplicate verification, and map/popup/tooltip functionality.

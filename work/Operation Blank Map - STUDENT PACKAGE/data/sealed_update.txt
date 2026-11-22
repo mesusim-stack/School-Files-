@@ -1,0 +1,8 @@
+STUDENT-WRITTEN SIMULATED OPERATIONAL UPDATE
+Case CPE15-LUC-001 | Lucban, Quezon | Effective 02:25
+
+Facility F03 - Scenario Assistance Hub - Nagsinamo - is non-operational
+effective 02:25 due to a generator failure. The hub is closed until
+further notice. All other assistance hubs remain operational.
+
+This is a student-written simulation. It is not an official LGU release and is not accompanied by written instructor permission.
